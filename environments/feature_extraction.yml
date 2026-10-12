@@ -1,0 +1,16 @@
+# Core environment reconstructed from versions reported by the study team.
+# This is an installation recipe, not a complete cross-platform lockfile.
+name: somnis-features
+channels:
+- conda-forge
+dependencies:
+- python=3.12.12
+- pip
+- pip:
+  - numpy==2.3.5
+  - scipy==1.16.3
+  - pandas==2.3.3
+  - mne==1.11.0
+  - antropy==0.1.9
+  - yasa==0.6.5
+  - tqdm==4.67.1

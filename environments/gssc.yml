@@ -1,0 +1,17 @@
+# Core environment reconstructed from versions reported by the study team.
+# This is an installation recipe, not a complete cross-platform lockfile.
+# PyTorch CUDA/CPU wheel choice may require a separate installation step.
+name: somnis-gssc
+channels:
+- conda-forge
+dependencies:
+- python=3.9.25
+- pip
+- pip:
+  - numpy==2.0.2
+  - scipy==1.13.1
+  - pandas==2.3.3
+  - mne==1.8.0
+  - gssc==0.0.9
+  - torch==2.8.0
+  - tqdm==4.67.3

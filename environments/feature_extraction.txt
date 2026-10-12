@@ -1,0 +1,10 @@
+# Observed key package versions: Linux server: PSG preprocessing and 278/1390-dimensional feature extraction
+# Python 3.12.12 (set by the corresponding .yml file)
+# Not a full pip/conda lockfile; record original full environment separately.
+numpy==2.3.5
+scipy==1.16.3
+pandas==2.3.3
+mne==1.11.0
+antropy==0.1.9
+yasa==0.6.5
+tqdm==4.67.1

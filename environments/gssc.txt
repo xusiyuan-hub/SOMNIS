@@ -1,0 +1,11 @@
+# Observed key package versions: Linux server: Greifswald Sleep Stage Classifier inference; CUDA/CPU build must match hardware
+# Python 3.9.25 (set by the corresponding .yml file)
+# Not a full pip/conda lockfile; record original full environment separately.
+# For CUDA, install the appropriate PyTorch wheel for your machine; see VERSIONS.md.
+numpy==2.0.2
+scipy==1.13.1
+pandas==2.3.3
+mne==1.8.0
+gssc==0.0.9
+torch==2.8.0
+tqdm==4.67.3
